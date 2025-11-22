@@ -144,7 +144,7 @@ button:hover {
 
 /* index css*/
 .hero-section {
-  background: url('../../image/spacecon.JPG') center center no-repeat;
+  background: url('../../image/1_1.jpg') center center no-repeat;
   background-size: contain;
   height: 90vh;
   display: flex;
@@ -152,7 +152,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white;
+  color: rgb(233, 134, 134);
 }
 
 /* On smaller screens, remove extra space from top/bottom */
@@ -302,6 +302,12 @@ h6 {
   margin-top: 5px;
   font-weight: bold;
   font-size: 0.9rem;
+}
+
+.gallery-dates {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #555;
 }
 
 .gallery-item {
