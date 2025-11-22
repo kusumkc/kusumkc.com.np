@@ -263,7 +263,7 @@ form.addEventListener("submit", async (e) => {
 
   if (error) {
     console.error("Insert Error:", error);
-    status.textContent = "❌ Failed to submit. Check console for details.";
+    status.textContent = "❌ Failed to submit.";
   } else {
     status.textContent = "✅ Submitted successfully!";
     form.reset();
