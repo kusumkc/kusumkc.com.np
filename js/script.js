@@ -243,7 +243,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // Supabase credentials
 const SUPABASE_URL = "https://dykgtaxikoexmgnrkgtq.supabase.co";
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR5a2d0YXhpa29leG1nbnJrZ3RxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI3MDQwMzksImV4cCI6MjA3ODI4MDAzOX0.2wjTsUi4FYfkcjgkCMILQhEKEOrFZpiOthrz2t-iAEM";
-const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 const form = document.getElementById("contactForm");
 const status = document.getElementById("status");
@@ -257,7 +257,7 @@ form.addEventListener("submit", async (e) => {
 
   status.textContent = "Submitting...";
 
-  const { data, error } = await supabase
+  const { data, error } = await supabaseClient
     .from("Kushal Portfolio Contact")
     .insert([{ name, email, comment }]);
 
