@@ -163,7 +163,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // ---------------- Skills Section ----------------
   const skillsData = [
-    { name: "Microsoft 365", percentage: 90, color: "#04d415" },
+    { name: "Microsoft 365", percentage: 85, color: "#04d415" },
     // { name: "AutoCAD", percentage: 45, color: "#71d16e" },
     // { name: "Differential GPS", percentage: 55, color: "#dbce11" },
     // { name: "Django", percentage: 50, color: "#e98007" },
