@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // ---------------- Education Timeline ----------------
   const educationData = [
     {
-      year: "2022 – 2026 (Expected)",
+      year: "2022 – 2026",
       institution: "CAFODAT College | Affiliated to Purbanchal University",
       location: "Patan, Lalitpur, Nepal",
       degree: "Bachelors of  Dairy Technology",
@@ -72,12 +72,20 @@ document.addEventListener("DOMContentLoaded", () => {
   // ---------------- Experience Timeline ----------------
   const experiencesdata = [
     {
-      date: "  June 2022 – Present",
+      date: "June 2022 – Present",
       organization: "Nepal Food Scientists and Technologists Association - NEFOSTA",
       location: "Babarmahal, Kathmandu, Nepal",
       role: "Office Secretary",
       description: "Coordinated meetings, events, and official programs of the organization.",
       link: "http://nefosta.org.np/"
+    },
+    {
+      date: "January 2026 – Present",
+      organization: "Shree Nawa Prabhat Dairy Pvt. Ltd.",
+      location: "Industrial Estate, Thulo Chakra, Lalitpur, Nepal",
+      role: "Intern Dairy Technologist",
+      description: "",
+      link: "http://nawaprabhatdairy.com.np/"
     },
   ];
 
